@@ -22,4 +22,10 @@ $humidity = str_replace('%', '', $humidity);
 $db = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
 mysqli_query($db, "INSERT INTO `{$dbname}`.`forecast` (`date`, `temperature`, `temperature_feels`, `humidity`, `wind`, `pressure`) VALUES (DATE_FORMAT(NOW(), '%Y-%m-%d %H:%i'), {$fact_temp}, {$term_temp}, {$humidity}, {$wind}, {$pressure})");
 
-echo 'done!';
+
+
+echo 'done!'; ?>
+
+<script>document.location.href="http://parser-weather/"</script>
+
+

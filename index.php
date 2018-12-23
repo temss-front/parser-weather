@@ -21,7 +21,7 @@ if(mysqli_num_rows($db_query) > 0){
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Парсер Я.Погоды</title>
 </head>
 <body>
     
@@ -46,7 +46,21 @@ if(mysqli_num_rows($db_query) > 0){
         <td><?= $f['pressure']?></td>
         <td><?= $f['wind']?></td>
         </tr>
+
     <?php endforeach;?>
+                <a class="click-me" href="http://parser-weather/parser.php">Обновить данные</a><br>
+            <style>
+            .clickMe {
+                -moz-appearance: button;
+                -ms-appearance: button;
+                -o-appearance: button;
+                -webkit-appearance: button;
+                appearance: button;
+                text-decoration: none;
+                color: #000;
+                padding: 0.2em 0.4em;
+            }​
+            </style>
     </tbody>
     
 </table>
