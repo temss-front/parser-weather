@@ -1,0 +1,16 @@
+Integration Strategy for Yandex weather parser project
+Author: Borisov Artem.
+
+Team members : Borisov Artem, Matveev Victor.
+Team lead: Burukin Stanislav.
+
+This document describes the methods of integration & integration testing.
+
+1) Integration strategy: by request.
+2)Integration 
+2.1) Person, responsible for integration of project: Borisov Artem.
+2.2) Goal: try to successfully setup program on most of PCs.
+3)Integration testing
+3.1) Person, responsible for integration testing: Borisov Artem.
+3.2) Goal: try to correct most bugs during the work of program on maximal number of PCs.
+
