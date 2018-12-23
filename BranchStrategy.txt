@@ -1,0 +1,15 @@
+Branch Strategy for Yandex weather parser project
+Author: Borisov Artem.
+
+Team members : Borisov Artem, Matveev Victor.
+Team lead: Burukin Stanislav.
+
+This document describes the branch strategy for Yandex weather parser developement. 
+
+Branch strategy:
+1) Each member creates his branch to develop and/or update existing project in order to keep stable version working.
+2) Depending on progress and deadlines, members merge projects after successful tests passing.
+3) In order to increase testing reliability, each member of the team tests each other's project version. 
+   After all members are satisfied with the testing results, merging of specific branch with master branch starts.
+   
+Branch Diagram is shown in Branch Scheme.
